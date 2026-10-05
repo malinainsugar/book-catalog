@@ -1,0 +1,9 @@
+.footer-copyright {
+    color: var(--color-text);
+    opacity: 0.6;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0;
+    font-weight: 500;
+    margin: 12px;
+}

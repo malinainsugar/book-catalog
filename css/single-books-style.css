@@ -1,0 +1,99 @@
+/* Обёртка книги */
+.book-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    color: var(--color-text);
+}
+
+/* Изображение книги */
+.book-image img {
+    width: min(100%, 264px); 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Информация о книге */
+.book-info {
+    flex: 1 1 0;
+    min-width: 200px;
+}
+
+/* Заголовок */
+.book-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+}
+
+/* Мета-информация */
+.book-meta p {
+    margin: 12px 0;
+}
+
+/* Контейнер метки + жанров */
+.book-genres-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.meta-label {
+    opacity: 0.5;
+    font-weight: 500;
+    white-space: nowrap; 
+    color: var(--color-text);
+}
+
+/* Жанры */
+.book-genres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.genre-item {
+    font-size: 14px;
+    padding: 2px 6px;
+    background-color: rgba(187, 222, 214, 0.5);
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.genre-item a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+/* Описание */
+.book-description {
+    margin-top: 20px;
+    font-family: 'Lora', serif;
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+.book-rating-wrapper {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    font-weight: 600;
+    color: gold;
+}
+
+.book-rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.book-rating img {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 1.5px;
+}

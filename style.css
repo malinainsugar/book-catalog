@@ -1,0 +1,32 @@
+/*
+Theme Name: Book Catalog Theme
+Author: Alina Trefelova
+Version: 1.0
+*/
+
+:root {
+    --color-bg: #BBDED6;
+    --color-accent: #61C0BF;
+    --color-text: #0C1E26;
+    --color-logo: #FAE3D9;
+    --color-add: #FFB6B9;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Gothic A1', sans-serif;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    width: min(100% - 40px, 1100px);
+    margin: 0 auto;
+    color: var(--color-text);
+}

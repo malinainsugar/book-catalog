@@ -1,0 +1,45 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: min(100% - 40px, 1000px);
+    height: 44px;
+
+    margin: 20px auto;
+    margin-bottom: 40px;
+    padding: 0 20px;
+
+    border-radius: 8px;
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+.header-logo {
+    display: flex;
+    padding: 8px 12px;
+    gap: 8px;
+
+    border-radius: 8px;
+    background-color: var(--color-logo);
+
+    transform: translateX(-40px) translateY(12px); 
+}
+
+.site-logo {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0;
+}
+
+.header-navigation div ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.header-navigation div ul li a {
+    text-decoration: none;
+    color: var(--color-text);
+}
